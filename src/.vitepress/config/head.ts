@@ -3,8 +3,8 @@ export const head: HeadConfig[] = [
   [
     'link',
     {
-      rel: 'icon',
-      href: `/images/logo-sim.png`,
+      rel: 'shortcut icon',
+      href: `/images/favicon.png`,
     },
   ],
 ];
