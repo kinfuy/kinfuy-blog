@@ -1,6 +1,7 @@
 ---
 title: '首页'
 hero: true
+active: 'home'
 ---
 
 <script setup>
