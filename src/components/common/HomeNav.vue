@@ -1,5 +1,8 @@
 <template>
-  <div class="home-nav">
+  <div
+    class="home-nav"
+    :style="{ 'background-color': isHero ? 'transparent' : '#fff' }"
+  >
     <div class="home-operate">
       <a
         v-for="item in links"
@@ -27,6 +30,10 @@ export default defineComponent({
       return frontmatter.value.active || '';
     });
 
+    const isHero = computed(() => {
+      return frontmatter.value.hero;
+    });
+
     const links = [
       {
         title: 'Home',
@@ -52,6 +59,7 @@ export default defineComponent({
     return {
       activeRoute,
       links,
+      isHero,
     };
   },
 });
@@ -68,18 +76,19 @@ export default defineComponent({
   justify-content: flex-end;
   padding-right: 100px;
   box-sizing: border-box;
+  z-index: 99;
   .home-operate {
     display: flex;
     align-items: center;
     .operate-btn {
       cursor: pointer;
+      &:hover {
+        color: #333;
+      }
     }
     .operate-item {
       margin-right: 20px;
       cursor: pointer;
-      &:hover {
-        color: @theme-color;
-      }
     }
     .active {
       color: @theme-color;

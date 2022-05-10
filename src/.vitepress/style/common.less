@@ -7,9 +7,14 @@
     height: 7px;
     background-color: #fff;
   }
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #e1e1e1;
     border-radius: 5px;
+}
+h1,h2,h3,h4{
+  margin: 15px 0;
+  color: #333;
+  cursor: pointer;
 }
 h1 .header-anchor,
 h2 .header-anchor{
@@ -45,8 +50,21 @@ a.header-anchor:focus {
 a{
   color: #333;
   text-decoration: none;
+  &:hover{
+    color: @theme-color
+  }
 }
 
 p:not(:last-child){
   margin-bottom: 10px;
+}
+
+li{
+  margin: 10px 0;
+}
+
+img{
+  width: 100%;
+  max-width: 1200px;
+  object-fit: cover;
 }

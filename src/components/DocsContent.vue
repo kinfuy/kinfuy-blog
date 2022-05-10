@@ -2,16 +2,33 @@
   <div class="docs-content">
     <HomeNav />
     <div class="docs-bodyer">
-      <Content />
+      <ArticleContent v-if="navType === 'article'" />
+      <Content v-else />
     </div>
   </div>
 </template>
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { computed, defineComponent } from 'vue';
+import { useRoute } from 'vitepress';
 import HomeNav from './common/HomeNav.vue';
+import ArticleContent from './ArticleContent.vue';
 export default defineComponent({
   name: 'DocsContent',
-  components: { HomeNav },
+  components: { HomeNav, ArticleContent },
+  setup() {
+    const route = useRoute();
+
+    const navType = computed(() => {
+      let type = '';
+      if (route.path.includes('/article/')) type = 'article';
+      if (route.path.includes('/about/')) type = 'about';
+      if (route.path.includes('/project/')) type = 'project';
+      return type;
+    });
+    return {
+      navType,
+    };
+  },
 });
 </script>
 <style lang="less" scoped>

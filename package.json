@@ -4,8 +4,9 @@
   "description": "alqmc blog",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev src",
-    "build": "vitepress build src",
+    "dev": "pnpm generate && vitepress dev src",
+    "build": "pnpm generate && vitepress build src",
+    "generate": "sucrase-node script/generate.ts",
     "serve": "vitepress serve  src --port 8080",
     "changelog": "conventional-changelog -p custom-config  -i CHANGELOG.md  -s -r 0 -n ./changelog.config.js"
   },
@@ -23,11 +24,16 @@
     "compare-func": "^2.0.0",
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
+    "fast-glob": "^3.2.11",
     "less": "^4.1.2",
     "prettier": "^2.6.2",
+    "sucrase": "^3.21.0",
     "typescript": "^4.6.4",
     "vite": "^2.9.8",
     "vitepress": "^0.22.4",
     "vue": "^3.2.33"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.2"
   }
 }
