@@ -3,8 +3,8 @@
  * Based on dabblet (http://dabblet.com)
  * @author Lea Verou
  */
- code[class*='language-'],
- pre[class*='language-'] {
+ code,
+ pre {
    color: black;
    background: none;
    text-shadow: 0 1px white;
@@ -15,7 +15,7 @@
    word-spacing: normal;
    word-break: normal;
    word-wrap: normal;
-   line-height: 1.5;
+   line-height: 1.4;
  
    -moz-tab-size: 4;
    -o-tab-size: 4;
@@ -25,46 +25,46 @@
    -moz-hyphens: none;
    -ms-hyphens: none;
    hyphens: none;
-   color: #e90;
+   color: rgb(33, 144, 234);
  }
  
- pre[class*='language-']::-moz-selection,
- pre[class*='language-'] ::-moz-selection,
- code[class*='language-']::-moz-selection,
- code[class*='language-'] ::-moz-selection {
+ pre::-moz-selection,
+ pre ::-moz-selection,
+ code::-moz-selection,
+ code::-moz-selection {
    text-shadow: none;
    background: #b3d4fc;
  }
  
- pre[class*='language-']::selection,
- pre[class*='language-'] ::selection,
- code[class*='language-']::selection,
- code[class*='language-'] ::selection {
+ pre::selection,
+ pre ::selection,
+ code::selection,
+ code ::selection {
    text-shadow: none;
    background: #b3d4fc;
  }
  
  @media print {
-   code[class*='language-'],
-   pre[class*='language-'] {
+   code,
+   pre {
      text-shadow: none;
    }
  }
  
  /* Code blocks */
- pre[class*='language-'] {
+ pre {
    padding: 1em 1.5em;
    margin: 0 0;
    overflow: auto;
  }
  
- :not(pre) > code[class*='language-'],
- pre[class*='language-'] {
+ :not(pre) > code,
+ pre {
    background: rgb(255, 255, 255);
  }
  
  /* Inline code */
- :not(pre) > code[class*='language-'] {
+ :not(pre) > code {
    padding: 0.1em;
    border-radius: 0.3em;
    white-space: normal;

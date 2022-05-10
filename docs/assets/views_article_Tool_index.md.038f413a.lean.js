@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,b as l}from"./app.f3271562.js";const f='{"title":"Tool","description":"","frontmatter":{"title":"Tool","active":"blog","article":true,"tag":"Tool"},"headers":[],"relativePath":"views/article/Tool/index.md"}',i={},o=l("",1),r=[o];function _(c,s,p,n,h,d){return a(),t("div",null,r)}var T=e(i,[["render",_]]);export{f as __pageData,T as default};

@@ -7,7 +7,7 @@ time: 2022.4.26
 
 ## 起因
 
-最近多个项目老是需要切换git账号，git命令都输入烦了，就想能不能像nvm，或者nrm一样管理git账户，正好最近写了一个node-cli的模板，正好有用武之地，说干就干。
+最近多个项目老是需要切换 git 账号，git 命令都输入烦了，就想能不能像 nvm，或者 nrm 一样管理 git 账户，正好最近写了一个 node-cli 的模板，正好有用武之地，说干就干。
 
 ## 开始
 
@@ -16,8 +16,9 @@ time: 2022.4.26
 ### 用法
 
 just like nvm
-```
-gacm ls 
+
+```shell
+gacm ls
 
 gacm use xxx ---local
 
@@ -30,21 +31,21 @@ gacm delate user
 
 ### 功能需求
 
-- 切换git账户（包含当前项目，全局用户，系统用户）
+- 切换 git 账户（包含当前项目，全局用户，系统用户）
 - 增加用户
 - 删除用户
 - 查看用户列表
 
-
-### 获取cli模板
+### 获取 cli 模板
 
 拉取一下我的模板工具[template-node-cli](https://github.com/alqmc/template-node-cli)
-- 内置了基于typescript+rollup+gulp的打包工具
+
+- 内置了基于 typescript+rollup+gulp 的打包工具
 - 给出了一些简单模板
 
 ### 核心思路
 
-- 通过cli执行shell命令
+- 通过 cli 执行 shell 命令
 
 ```
 git config --xxx user.name xxxx
@@ -52,5 +53,6 @@ git config --xxx user.email xxxx
 ```
 
 ### 源码
+
 - [github](https://github.com/alqmc/gacm)
 - [gitee](https://gitee.com/Y_onghu/gacm)
