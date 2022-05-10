@@ -27,15 +27,15 @@ export default defineComponent({
       },
       {
         name: 'Vuejs',
-        url: '/views/article/vuejs/index.html',
+        url: '/views/article/Vuejs/index.html',
       },
       {
         name: 'Javascript',
-        url: '/views/article/javascript/index.html',
+        url: '/views/article/Javascript/index.html',
       },
       {
         name: 'Nodejs',
-        url: '/views/article/nodejs/index.html',
+        url: '/views/article/Nodejs/index.html',
       },
       {
         name: 'Tool',
@@ -43,7 +43,7 @@ export default defineComponent({
       },
       {
         name: 'InformalEssay',
-        url: '/views/article/informalEssay/index.html',
+        url: '/views/article/InformalEssay/index.html',
       },
     ];
     const tagActive = computed(() => {
