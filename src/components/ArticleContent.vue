@@ -11,6 +11,10 @@
       </a>
     </div>
     <Content />
+    <div v-if="!catalogue" class="copy-right">
+      本文首发于
+      <a href="https://alqmc.github.io/">@阿乐去买菜</a>，转载请署名出处
+    </div>
   </div>
 </template>
 <script lang="ts">
@@ -49,9 +53,14 @@ export default defineComponent({
     const tagActive = computed(() => {
       return frontmatter.value.tag;
     });
+
+    const catalogue = computed(() => {
+      return frontmatter.value.catalogue || false;
+    });
     return {
       tags,
       tagActive,
+      catalogue,
     };
   },
 });
@@ -78,6 +87,11 @@ export default defineComponent({
     .tag-active {
       color: #333;
     }
+  }
+  .copy-right {
+    margin-top: 20px;
+    color: #e6382b;
+    font-weight: 700;
   }
 }
 </style>

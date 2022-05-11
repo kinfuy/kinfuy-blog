@@ -1,7 +1,7 @@
 ---
 title: 'Javascript'
 active: 'blog'
-article: true
+catalogue: true
 tag: 'Javascript'
 ---
 - [【拿来吧你】装饰器](./libs/decorator) <Tag>2021.8.2</Tag>

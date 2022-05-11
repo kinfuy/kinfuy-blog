@@ -5,19 +5,21 @@ tag: Nodejs
 time: 2021.3.31
 ---
 
-## 什么是 socket.io
+## socket.io 初体验
+
+### 什么是 socket.io
 
 Socket.IO 是一个封装了 Websocket、基于 Node 的 JavaScript 框架，包含 client 的 JavaScript 和 server 的 Node。其屏蔽了所有底层细节，让顶层调用非常简单。另外，Socket.IO 还有一个非常重要的好处。其不仅支持 WebSocket，还支持许多种轮询机制以及其他实时通信方式，并封装了通用的接口。这些方式包含 Adobe Flash Socket、Ajax 长轮询、Ajax multipart streaming 、持久 Iframe、JSONP 轮询等。换句话说，当 Socket.IO 检测到当前环境不支持 WebSocket 时，能够自动地选择最佳的方式来实现网络的实时通信。
 
-## 客户端（vue+vue-socket.io）
+### 客户端（vue+vue-socket.io）
 
-安装
+#### 安装
 
 ```shell
 npm install vue-socket.io --save
 ```
 
-### 实现
+#### 实现
 
 - 引入 vue-socket.io
 
@@ -48,7 +50,7 @@ Vue.use(
 
 注意：sockets 与 methods 同级 不在 methods 内
 
-### 可能遇到的问题链接请求跨域问题
+#### 可能遇到的问题链接请求跨域问题
 
 - 在 vue.config.js 配置一下代理
 
@@ -67,15 +69,15 @@ Vue.use(
 }
 ```
 
-## node 服务端（express+socket.io）
+### node 服务端（express+socket.io）
 
-### 安装
+#### 安装
 
 ```shell
 npm install socket.io --save
 ```
 
-### 实现
+#### 实现
 
 ```js
 const app = require('express')();

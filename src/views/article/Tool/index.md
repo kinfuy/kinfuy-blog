@@ -1,7 +1,7 @@
 ---
 title: 'Tool'
 active: 'blog'
-article: true
+catalogue: true
 tag: 'Tool'
 ---
 - [【gacm】傻瓜式git账号管理工具](./libs/gacm) <Tag>2022.4.26</Tag>

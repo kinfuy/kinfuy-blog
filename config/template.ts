@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 const createTemplate = (tag: string) => {
-  return `---\ntitle: '${tag}'\nactive: 'blog'\narticle: true\ntag: '${tag}'\n---\n`;
+  return `---\ntitle: '${tag}'\nactive: 'blog'\ncatalogue: true\ntag: '${tag}'\n---\n`;
 };
 
 export const getArticleHeader = (tag: string) => {

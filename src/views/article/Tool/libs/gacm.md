@@ -5,11 +5,13 @@ tag: Tool
 time: 2022.4.26
 ---
 
-## 起因
+## 【gacm】傻瓜式 git 账号管理工具
+
+### 起因
 
 最近多个项目老是需要切换 git 账号，git 命令都输入烦了，就想能不能像 nvm，或者 nrm 一样管理 git 账户，正好最近写了一个 node-cli 的模板，正好有用武之地，说干就干。
 
-## 开始
+### 开始
 
 ![动画.gif](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/05cf68ef26d34d28a3480043ac980f2c~tplv-k3u1fbpfcp-watermark.image?)
 

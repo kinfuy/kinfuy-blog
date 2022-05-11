@@ -5,6 +5,8 @@ tag: Javascript
 time: 2021.2.28
 ---
 
+## 关于 XSS 与 CSRF 你应该知道的
+
 在 Web 安全领域中，XSS 和 CSRF 是最常见的攻击方式。接下来就简单的说一下他们该怎么防范。
 
 ### 什么是 XSS

@@ -1,9 +1,11 @@
 ---
 title: 'All'
 active: 'blog'
-article: true
+catalogue: true
 tag: 'All'
 ---
+- [vitepress+github page 快速搭建个人博客](./Vuejs/libs/vitepress) <Tag>2022.5.11</Tag>
+
 - [【gacm】傻瓜式git账号管理工具](./Tool/libs/gacm) <Tag>2022.4.26</Tag>
 
 - [【前端必备】极简的 API 代理工具!](./Tool/libs/apiProxy) <Tag>2022.2.22</Tag>

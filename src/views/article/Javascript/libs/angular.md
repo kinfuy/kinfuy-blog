@@ -5,7 +5,9 @@ tag: Javascript
 time: 2021.3.27
 ---
 
-## highlight: androidstudio
+## Angular 你不得不了解的入门小知识
+
+### highlight: androidstudio
 
 **1. 一个 Angular 程序至少需要一个模块和一个组件。在我们新建项目的时候命令行已经默认生成出来了。**
 

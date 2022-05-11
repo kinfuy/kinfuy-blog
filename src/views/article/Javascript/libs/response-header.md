@@ -5,6 +5,8 @@ tag: Javascript
 time: 2021.4.28
 ---
 
+## 文件下载 之 response header 中获取文件名
+
 ### 通过 post 获取文件流，并从中获取到文件信息。
 
 - fetch API

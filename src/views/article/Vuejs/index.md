@@ -1,9 +1,11 @@
 ---
 title: 'Vuejs'
 active: 'blog'
-article: true
+catalogue: true
 tag: 'Vuejs'
 ---
+- [vitepress+github page 快速搭建个人博客](./libs/vitepress) <Tag>2022.5.11</Tag>
+
 - [Vue3 Hook 到底是啥黑魔法？](./libs/vueHook) <Tag>2021.7.29</Tag>
 
 - [鼠标拖拽建立选区，选中元素](./libs/select) <Tag>2021.7.14</Tag>

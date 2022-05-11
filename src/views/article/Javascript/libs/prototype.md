@@ -5,6 +5,8 @@ tag: Javascript
 time: 2021.3.29
 ---
 
+## 你真的了解 prototype 和**proto**吗
+
 ### 一句话的图解：**实例对象的隐式原型指向构造函数的的原型对象**
 
 ![原型.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cc97d23d54324e74b8cb4e219c344aa0~tplv-k3u1fbpfcp-watermark.image)
