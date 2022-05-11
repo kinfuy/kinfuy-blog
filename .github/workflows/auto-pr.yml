@@ -28,3 +28,10 @@ jobs:
 
       - name: Compile alqmc docs
         run: pnpm build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          branch: dev
+          folder: docs
