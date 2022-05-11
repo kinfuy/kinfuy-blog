@@ -42,13 +42,15 @@ time: 2021.3.27
 
 - Angular 常用命令
 
-  ng new [name]
+```shell
+ ng new [name]
 
-  ng serve --open
+ ng serve --open
 
-  // ng serve 命令会启动开发服务器、监视文件，并在这些文件发生更改时重建应用。
+ // ng serve 命令会启动开发服务器、监视文件，并在这些文件发生更改时重建应用。
 
-  // --open（或者只用 -o 缩写）选项会自动打开你的浏览器，并访问 http://localhost:4200/
+ // --open（或者只用 -o 缩写）选项会自动打开你的浏览器，并访问 http://localhost:4200/
+```
 
 - 模块
   将其组件和一组相关代码（如服务）关联起来
