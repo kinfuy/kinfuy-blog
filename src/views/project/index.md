@@ -122,3 +122,18 @@ vue 类库打包工具
 </div>
 
 打包工具函数库
+
+<div class='project-item'>
+
+[8、simmind](https://github.com/alqmc/simmind)
+
+<a href="https://www.npmjs.org/package/simmind ">
+<img src="https://img.shields.io/npm/v/simmind.svg">
+</a>
+<a href="https://npmcharts.com/compare/simmind?minimal=true">
+<img src="https://img.shields.io/npm/dm/simmind.svg?color=357C3C">
+</a>
+<!-- <a href="https://npmcharts.com/compare/simmind?minimal=true">
+<img src="https://img.shields.io/npm/l/simmind.svg?color=blue">
+</a> -->
+</div>
