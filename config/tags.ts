@@ -1,5 +1,5 @@
 export const tags = [
-  'Newest',
+  'All',
   'Vuejs',
   'Javascript',
   'Nodejs',

@@ -22,7 +22,7 @@ export default defineComponent({
     const { frontmatter } = useData();
     const tags = [
       {
-        name: 'Newest',
+        name: 'All',
         url: '/views/article/index.html',
       },
       {

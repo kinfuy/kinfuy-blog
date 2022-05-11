@@ -18,6 +18,7 @@ time: 2022.4.26
 just like nvm
 
 ```shell
+
 gacm ls
 
 gacm use xxx ---local
@@ -47,7 +48,7 @@ gacm delate user
 
 - 通过 cli 执行 shell 命令
 
-```
+```shell
 git config --xxx user.name xxxx
 git config --xxx user.email xxxx
 ```

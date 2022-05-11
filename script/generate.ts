@@ -25,35 +25,43 @@ const getArticleInfo = async (path: string): Promise<ArticleInfo> => {
   const tag = info && info[0].match(/tag:(.*)/g);
   const time = info && info[0].match(/time:(.*)/g);
 
-  const link = path.replace('.md', '').match(/libs(.*)/);
+  const link = path.replace('.md', '').match(/article(.*)/);
   return {
     title: title ? title[0].replace(/title:(\s)*/, '') : '',
     time: time ? time[0].replace(/time:(\s)*/, '') : '',
     tag: tag ? tag[0].replace(/tag:(\s)*/, '') : '',
-    path: link ? `./${link[0]}` : '',
+    path: link ? `.${link[0].replace('article', '')}` : '',
   };
 };
-
+const writeTagFile = async (tag: string, tagArticle: ArticleInfo[]) => {
+  if (!tag) return;
+  if (tagArticle.length === 0) return;
+  const header = getArticleHeader(tag);
+  const code = tagArticle
+    .map((file) => {
+      let path = file.path;
+      if (tag != 'All') {
+        const localPath = file.path.match(/libs(.*)/);
+        path = localPath ? `./${localPath[0]}` : '';
+      }
+      return `- [${file.title}](${path}) <Tag>${file.time}</Tag>\n`;
+    })
+    .join('\n');
+  await writeFile(
+    resolve(header.path, 'index.md'),
+    header.template + code,
+    'utf-8'
+  );
+};
 const writeEnter = async (articleInfo: ArticleInfo[]) => {
-  tags.forEach(async (tag) => {
-    const articles = articleInfo
-      .filter((x) => x.tag === tag)
-      .sort((a, b) => {
-        return dayjs(a.time).isBefore(dayjs(b.time)) ? 1 : -1;
-      });
-    if (articles.length === 0) return;
-    const header = getArticleHeader(tag);
-    const code = articles
-      .map((file) => {
-        return `- [${file.title}](${file.path}) ${file.time}\n`;
-      })
-      .join('\n');
-    await writeFile(
-      resolve(header.path, 'index.md'),
-      header.template + code,
-      'utf-8'
-    );
+  const articles = articleInfo.sort((a, b) => {
+    return dayjs(a.time).isBefore(dayjs(b.time)) ? 1 : -1;
   });
+  tags.forEach(async (tag) => {
+    const tagArticle = articles.filter((x) => x.tag === tag);
+    await writeTagFile(tag, tagArticle);
+  });
+  await writeTagFile('All', articles);
 };
 const generateEnter = async () => {
   const articleInfoList: ArticleInfo[] = [];

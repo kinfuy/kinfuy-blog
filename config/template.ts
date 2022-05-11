@@ -4,9 +4,11 @@ const createTemplate = (tag: string) => {
 };
 
 export const getArticleHeader = (tag: string) => {
+  let path = resolve(__dirname, `../src/views/article/${tag}`);
+  if (tag === 'All') path = resolve(__dirname, `../src/views/article`);
   return {
     tag,
     template: createTemplate(tag),
-    path: resolve(__dirname, `../src/views/article/${tag}`),
+    path,
   };
 };
