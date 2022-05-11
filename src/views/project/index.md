@@ -137,3 +137,5 @@ vue 类库打包工具
 <img src="https://img.shields.io/npm/l/simmind.svg?color=blue">
 </a> -->
 </div>
+
+vue 思维导图，基于 kityminder-core
