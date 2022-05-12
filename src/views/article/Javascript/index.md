@@ -25,3 +25,15 @@ tag: 'Javascript'
 - [LeetCode刷题日记之找出数组中重复数字](./libs/leetcode-num) <Tag>2021.1.11</Tag>
 
 - [关于EventLoop的简单理解](./libs/eventLoop) <Tag>2021.1.8</Tag>
+
+- [常用的三种模块化规范](./libs/module) <Tag>2020.11.4</Tag>
+
+- [手撕数据结构----队列与优先队列](./libs/queen) <Tag>2020.10.28</Tag>
+
+- [JS 如何终止 forEach 循环](./libs/forEach) <Tag>2020.10.22</Tag>
+
+- [call、apply、bind详解](./libs/call-bind) <Tag>2020.10.18</Tag>
+
+- [ES6异步解决方案async函数](./libs/async) <Tag>2020.6.15</Tag>
+
+- [ES6之对象方法](./libs/object) <Tag>2020.6.13</Tag>

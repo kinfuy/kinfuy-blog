@@ -71,7 +71,7 @@ export default defineComponent({
     position: sticky;
     top: 50px;
     display: flex;
-    height: 80px;
+    height: 50px;
     align-items: center;
     background-color: #fff;
     z-index: 9;
