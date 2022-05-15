@@ -34,6 +34,12 @@ export default defineComponent({
       return frontmatter.value.hero;
     });
 
+    const btnColor = computed(() => {
+      return isHero.value ? '#fff' : '#333';
+    });
+    const activeColor = computed(() => {
+      return isHero.value ? '#333' : '#7dd1d3';
+    });
     const links = [
       {
         title: 'Home',
@@ -60,6 +66,8 @@ export default defineComponent({
       activeRoute,
       links,
       isHero,
+      btnColor,
+      activeColor,
     };
   },
 });
@@ -74,7 +82,6 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 100px;
   box-sizing: border-box;
   z-index: 99;
   .home-operate {
@@ -82,16 +89,47 @@ export default defineComponent({
     align-items: center;
     .operate-btn {
       cursor: pointer;
-      &:hover {
-        color: #333;
-      }
     }
     .operate-item {
       margin-right: 20px;
       cursor: pointer;
     }
-    .active {
-      color: @theme-color;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .home-nav {
+    padding-right: 100px;
+    .home-operate {
+      .operate-btn {
+        &:hover {
+          color: #333;
+        }
+      }
+
+      .active {
+        color: @theme-color;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .home-nav {
+    padding-right: 10px;
+    min-width: 350px;
+    .home-operate {
+      .operate-item {
+        color: v-bind(btnColor);
+      }
+      .operate-btn {
+        color: v-bind(btnColor);
+        &:hover {
+          color: v-bind(activeColor);
+        }
+      }
+      .active {
+        color: v-bind(activeColor);
+      }
     }
   }
 }

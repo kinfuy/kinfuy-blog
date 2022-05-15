@@ -1,6 +1,6 @@
 <template>
   <div class="article-content">
-    <div class="article-tag">
+    <div class="article-nav-tag">
       <a
         v-for="tag in tags"
         :key="tag.name"
@@ -67,11 +67,10 @@ export default defineComponent({
 </script>
 <style lang="less" scoped>
 .article-content {
-  .article-tag {
+  .article-nav-tag {
     position: sticky;
     top: 50px;
     display: flex;
-    height: 50px;
     align-items: center;
     background-color: #fff;
     z-index: 9;
@@ -80,6 +79,7 @@ export default defineComponent({
       color: #999;
       cursor: pointer;
       margin-right: 15px;
+      line-height: 30px;
       &:hover {
         color: #333;
       }
@@ -92,6 +92,20 @@ export default defineComponent({
     margin-top: 20px;
     color: #e6382b;
     font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .article-nav-tag {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .article-content {
+    padding: 10px;
+    .article-nav-tag {
+      flex-wrap: wrap;
+    }
   }
 }
 </style>
