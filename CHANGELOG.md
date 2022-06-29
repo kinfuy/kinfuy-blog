@@ -1,8 +1,9 @@
-## 0.0.1 (2022-05-15)
+## 0.0.1 (2022-06-29)
 
 
 ### ✨ Features | 新功能
 
+* 每个前端都应该拥有自己的快速模板CLI工具 ([0596e3e](https://github.com/alqmc/alqmc.github.io/commit/0596e3e))
 * about ([95df83e](https://github.com/alqmc/alqmc.github.io/commit/95df83e))
 * action ([24b5fa7](https://github.com/alqmc/alqmc.github.io/commit/24b5fa7))
 * article ([4819f74](https://github.com/alqmc/alqmc.github.io/commit/4819f74))
@@ -20,7 +21,7 @@
 * detail ([cb16c79](https://github.com/alqmc/alqmc.github.io/commit/cb16c79))
 * detail ([9296e3a](https://github.com/alqmc/alqmc.github.io/commit/9296e3a))
 * detail ([b51dfa1](https://github.com/alqmc/alqmc.github.io/commit/b51dfa1))
-* fix style ([fa3fd63](https://github.com/alqmc/alqmc.github.io/commit/fa3fd63))
+* fix style ([53e2406](https://github.com/alqmc/alqmc.github.io/commit/53e2406))
 * project ([8de2d84](https://github.com/alqmc/alqmc.github.io/commit/8de2d84))
 
 

@@ -7,7 +7,24 @@ active: 'project'
 
 <div class='project-item'>
 
-[1、vue-simple-json](https://github.com/alqmc/command-tips)
+[Mangosteen（山竹）](https://github.com/alqmc/command-tips)
+
+<a href="https://www.npmjs.org/package/mangosteen-cli">
+<img src="https://img.shields.io/npm/v/mangosteen-cli.svg">
+</a>
+<a href="https://npmcharts.com/compare/mangosteen-cli?minimal=true">
+<img src="https://img.shields.io/npm/dm/mangosteen-cli.svg?color=357C3C">
+</a>
+<a href="https://npmcharts.com/compare/mangosteen-cli?minimal=true">
+<img src="https://img.shields.io/npm/l/mangosteen-cli.svg?color=blue">
+</a>
+</div>
+
+⚡️ 极简的个人模板生成工具
+
+<div class='project-item'>
+
+[vue-simple-json](https://github.com/alqmc/vue-simple-json)
 
 <a href="https://www.npmjs.org/package/vue-simple-json">
 <img src="https://img.shields.io/npm/v/vue-simple-json.svg">
@@ -24,7 +41,7 @@ active: 'project'
 
 <div class='project-item'>
 
-[2、gacm](https://github.com/alqmc/gacm)
+[gacm](https://github.com/alqmc/gacm)
 
 <a href="https://www.npmjs.org/package/gacm">
 <img src="https://img.shields.io/npm/v/gacm.svg">
@@ -41,7 +58,7 @@ Git Account Management Tools
 
 <div class='project-item'>
 
-[3、command-tips](https://github.com/alqmc/command-tips)
+[command-tips](https://github.com/alqmc/command-tips)
 
 <a href="https://www.npmjs.org/package/command-tips ">
 <img src="https://img.shields.io/npm/v/command-tips.svg">
@@ -57,7 +74,7 @@ Git Account Management Tools
 
 <div class='project-item'>
 
-[4、@alqmc/eslint-config](https://github.com/alqmc/@alqmc/eslint-config)
+[@alqmc/eslint-config](https://github.com/alqmc/@alqmc/eslint-config)
 
 <a href="https://www.npmjs.org/package/@alqmc/eslint-config ">
 <img src="https://img.shields.io/npm/v/@alqmc/eslint-config.svg">
@@ -74,7 +91,7 @@ eslint-config 配置
 
 <div class='project-item'>
 
-[5、@alqmc/build-ts](https://github.com/alqmc/@alqmc/build-ts)
+[@alqmc/build-ts](https://github.com/alqmc/@alqmc/build-ts)
 
 <a href="https://www.npmjs.org/package/@alqmc/build-ts ">
 <img src="https://img.shields.io/npm/v/@alqmc/build-ts.svg">
@@ -91,7 +108,7 @@ ts 类库打包工具
 
 <div class='project-item'>
 
-[6、@alqmc/build-vue](https://github.com/alqmc/@alqmc/@alqmc/build-vue)
+[@alqmc/build-vue](https://github.com/alqmc/@alqmc/@alqmc/build-vue)
 
 <a href="https://www.npmjs.org/package/@alqmc/build-vue ">
 <img src="https://img.shields.io/npm/v/@alqmc/build-vue.svg">
@@ -108,7 +125,7 @@ vue 类库打包工具
 
 <div class='project-item'>
 
-[7、@alqmc/build-utils](https://github.com/alqmc/@alqmc/@alqmc/build-utils)
+[@alqmc/build-utils](https://github.com/alqmc/@alqmc/@alqmc/build-utils)
 
 <a href="https://www.npmjs.org/package/@alqmc/build-utils ">
 <img src="https://img.shields.io/npm/v/@alqmc/build-utils.svg">
@@ -125,7 +142,7 @@ vue 类库打包工具
 
 <div class='project-item'>
 
-[8、simmind](https://github.com/alqmc/simmind)
+[simmind](https://github.com/alqmc/simmind)
 
 <a href="https://www.npmjs.org/package/simmind ">
 <img src="https://img.shields.io/npm/v/simmind.svg">
