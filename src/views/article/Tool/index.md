@@ -4,6 +4,8 @@ active: 'blog'
 catalogue: true
 tag: 'Tool'
 ---
+- ['✨每个前端都应该拥有自己的快速模板CLI工具'](./libs/mangosteen) <Tag>2022.6.29</Tag>
+
 - [【gacm】傻瓜式git账号管理工具](./libs/gacm) <Tag>2022.4.26</Tag>
 
 - [【前端必备】极简的 API 代理工具!](./libs/apiProxy) <Tag>2022.2.22</Tag>

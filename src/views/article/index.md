@@ -4,6 +4,8 @@ active: 'blog'
 catalogue: true
 tag: 'All'
 ---
+- ['✨每个前端都应该拥有自己的快速模板CLI工具'](./Tool/libs/mangosteen) <Tag>2022.6.29</Tag>
+
 - [vitepress+github page 快速搭建个人博客](./Vuejs/libs/vitepress) <Tag>2022.5.11</Tag>
 
 - [【gacm】傻瓜式git账号管理工具](./Tool/libs/gacm) <Tag>2022.4.26</Tag>
