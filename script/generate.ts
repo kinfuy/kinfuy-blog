@@ -55,7 +55,7 @@ const writeTagFile = async (tag: string, tagArticle: ArticleInfo[]) => {
 };
 const writeEnter = async (articleInfo: ArticleInfo[]) => {
   const articles = articleInfo.sort((a, b) => {
-    return dayjs(a.time).isBefore(dayjs(b.time)) ? 1 : -1;
+    return dayjs(a.time) < dayjs(b.time) ? 1 : -1;
   });
   tags.forEach(async (tag) => {
     const tagArticle = articles.filter((x) => x.tag === tag);
