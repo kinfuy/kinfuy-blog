@@ -5,8 +5,6 @@ tag: InformalEssay
 time: 2022.7.31
 ---
 
-## theme: cyanosis
-
 ## 什么是低代码平台
 
 让我们先看一下来着百度词条是怎么解释的：
