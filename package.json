@@ -9,7 +9,7 @@
     "generate": "sucrase-node script/generate.ts",
     "serve": "vitepress serve  src --port 8080",
     "push": "git push github master&&git push gitee master",
-    "log": "conventional-changelog -p custom-config  -i CHANGELOG.md  -s -r 0 -n ./changelog.config.js",
+    "log": "changeloger",
     "prepare": "husky install"
   },
   "keywords": [
@@ -23,10 +23,7 @@
     "@commitlint/config-conventional": "^9.1.2",
     "@vitejs/plugin-vue": "^2.3.2",
     "@vue/tsconfig": "^0.1.3",
-    "compare-func": "^2.0.0",
-    "conventional-changelog-cli": "^2.2.2",
-    "conventional-changelog-custom-config": "^0.3.1",
-    "cz-conventional-changelog": "^3.3.0",
+    "changeloger": "^0.0.6",
     "fast-glob": "^3.2.11",
     "husky": "^8.0.1",
     "less": "^4.1.2",
