@@ -4,6 +4,8 @@ active: 'blog'
 catalogue: true
 tag: 'All'
 ---
+- [【低代码平台之哈姆雷特】千变万化的属性设置器](./InformalEssay/libs/lowcodeSetter) <Tag>2022.8.21</Tag>
+
 - [【低代码平台之万物互联】怎么打通物料，渲染器，属性设置器？](./InformalEssay/libs/lowcodedesiger) <Tag>2022.8.10</Tag>
 
 - [【低代码系列之万物之初】重生之梦回Dreamweaver？](./InformalEssay/libs/lowcodeDesigner) <Tag>2022.8.2</Tag>
