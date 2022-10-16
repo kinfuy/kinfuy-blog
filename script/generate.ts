@@ -12,6 +12,7 @@ interface ArticleInfo {
   tag: string;
   path: string;
   time: string;
+  islatest: boolean;
 }
 const getEnterFile = async () => {
   const list = await fsGlob(['**/article/**/*.md', '!**/*index.md']);
@@ -31,6 +32,11 @@ const getArticleInfo = async (path: string): Promise<ArticleInfo> => {
     time: time ? time[0].replace(/time:(\s)*/, '') : '',
     tag: tag ? tag[0].replace(/tag:(\s)*/, '') : '',
     path: link ? `.${link[0].replace('article', '')}` : '',
+    islatest: time
+      ? dayjs(time[0].replace(/time:(\s)*/, '')).isAfter(
+          dayjs().subtract(30, 'day')
+        )
+      : false,
   };
 };
 const writeTagFile = async (tag: string, tagArticle: ArticleInfo[]) => {
@@ -44,7 +50,9 @@ const writeTagFile = async (tag: string, tagArticle: ArticleInfo[]) => {
         const localPath = file.path.match(/libs(.*)/);
         path = localPath ? `./${localPath[0]}` : '';
       }
-      return `- [${file.title}](${path}) <Tag>${file.time}</Tag>\n`;
+      return `- [${file.title}](${path}) ${
+        file.islatest ? ` <Tag color='#5a810d'>newest</Tag>` : ''
+      } <Tag>${file.time}</Tag> \n`;
     })
     .join('\n');
   await writeFile(

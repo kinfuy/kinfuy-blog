@@ -35,15 +35,18 @@ export default defineComponent({
 .docs-content {
   width: 100%;
   height: 100%;
+  .docs-bodyer {
+    box-sizing: border-box;
+  }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
   .docs-bodyer {
     margin: 80px auto;
     width: 1200px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .docs-bodyer {
     margin: 50px auto;
     width: 100%;

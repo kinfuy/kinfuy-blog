@@ -7,7 +7,7 @@ specifiers:
   '@types/node': ^18.6.2
   '@vitejs/plugin-vue': ^2.3.2
   '@vue/tsconfig': ^0.1.3
-  changeloger: ^0.0.6
+  changeloger: ^0.1.0
   dayjs: ^1.11.2
   fast-glob: ^3.2.11
   husky: ^8.0.1
@@ -30,7 +30,7 @@ devDependencies:
   '@commitlint/config-conventional': 9.1.2
   '@vitejs/plugin-vue': 2.3.2_vite@2.9.8+vue@3.2.33
   '@vue/tsconfig': 0.1.3_@types+node@18.6.2
-  changeloger: 0.0.6
+  changeloger: 0.1.0
   fast-glob: 3.2.11
   husky: 8.0.1
   less: 4.1.2
@@ -942,8 +942,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /changeloger/0.0.6:
-    resolution: {integrity: sha512-wxrf47LeawUXdbDFnD7FUZoPjlF5yfCaJERK8AmxeaH4NN5awvGXgyTDIlv8YHGblqkBeMPROn4t7MPKB8pMyg==}
+  /changeloger/0.1.0:
+    resolution: {integrity: sha512-o3tkYr4pakB0R9Ct0UcxY2z9ZgCkLV3K2V3gDKAN/dH45272qUKbbdNKyLTnZ8xnG6qHOLNMs/yrAHbbRu3Feg==}
     hasBin: true
     dependencies:
       execa: 5.0.1
@@ -1077,8 +1077,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      is-text-path: 1.0.1
       JSONStream: 1.3.5
+      is-text-path: 1.0.1
       lodash: 4.17.21
       meow: 8.1.2
       split2: 3.2.2

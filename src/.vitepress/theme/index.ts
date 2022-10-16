@@ -7,9 +7,7 @@ export default define<Theme>({
   Layout,
   NotFound: () => '404',
   enhanceApp: ({ app }) => {
-    components.forEach((com) => {
-      app.component(com.name, com);
-    });
+    components.forEach((com) => app.component(com.name as string, com));
     Object.keys(icons).forEach((icon) => {
       app.component(icon, icons[icon]);
     });
