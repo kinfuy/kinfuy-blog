@@ -95,14 +95,27 @@ export default defineComponent({
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 375px) and (max-width: 700px) {
+  .article-content {
+    width: 100%;
+    padding: 0 10px;
+  }
   .article-nav-tag {
     height: 50px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 1400px) {
   .article-content {
+    margin: 100px auto;
     padding: 10px;
+    .article-nav-tag {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media screen and (min-width: 1400px) {
+  .article-content {
+    padding: 10px 80px;
     .article-nav-tag {
       flex-wrap: wrap;
     }

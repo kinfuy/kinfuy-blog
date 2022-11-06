@@ -4,6 +4,8 @@ active: 'blog'
 catalogue: true
 tag: 'Tool'
 ---
+- [极简的git账号与npm registry管理工具](./libs/gnrm)  <Tag color='#5a810d'>newest</Tag> <Tag>2022.11.7</Tag> 
+
 - ['✨每个前端都应该拥有自己的快速模板CLI工具'](./libs/mangosteen)  <Tag>2022.6.29</Tag> 
 
 - [【gacm】傻瓜式git账号管理工具](./libs/gacm)  <Tag>2022.4.26</Tag> 

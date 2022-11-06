@@ -40,13 +40,14 @@ export default defineComponent({
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 375px) and (max-width: 700px) {
   .docs-bodyer {
-    margin: 80px auto;
-    width: 1200px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .docs-bodyer {
     margin: 50px auto;
     width: 100%;

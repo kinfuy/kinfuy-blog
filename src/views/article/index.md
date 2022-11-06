@@ -4,6 +4,8 @@ active: 'blog'
 catalogue: true
 tag: 'All'
 ---
+- [极简的git账号与npm registry管理工具](./Tool/libs/gnrm)  <Tag color='#5a810d'>newest</Tag> <Tag>2022.11.7</Tag> 
+
 - [【低代码平台之哈姆雷特】千变万化的属性设置器](./InformalEssay/libs/lowcodeSetter)  <Tag>2022.8.21</Tag> 
 
 - [【低代码平台之万物互联】怎么打通物料，渲染器，属性设置器？](./InformalEssay/libs/lowcodedesiger)  <Tag>2022.8.10</Tag> 
