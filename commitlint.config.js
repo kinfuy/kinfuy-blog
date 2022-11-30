@@ -15,7 +15,8 @@ module.exports = {
         'revert',
         'style',
         'test',
-        'deps'
+        'deps',
+        'chore'
       ]
     ],
     'type-case': [0],

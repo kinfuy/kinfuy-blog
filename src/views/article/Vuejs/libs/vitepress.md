@@ -11,25 +11,25 @@ time: 2022.5.11
 
 呃呃呃，初衷就是两个字没钱 😀，哈哈哈，最近学生时期买的腾讯云服务过期了，没钱不想续费了，还有腾讯云比起阿里云的确还是有些差距（这两种服务器都用过。不是云玩家，虽然是学生机，便宜货），所以准备白嫖 github pages。花了两天不到时间就搞定了，虽然有些粗糙了 😀
 
-预览地址：[@阿乐去买菜](alqmc.github.io)
+预览地址：[@Kinfu](kinfuyang.github.io)
 
 ### 实现
 
 #### 主页部分
 
-![阿乐去买菜](/articles/blog.jpg)
+![Kinfu](/articles/blog.jpg)
 
 #### 文章部分
 
-![阿乐去买菜](/articles/blog2.jpg)
+![Kinfu](/articles/blog2.jpg)
 
 #### 项目部分
 
-![阿乐去买菜](/articles/blog1.jpg)
+![Kinfu](/articles/blog1.jpg)
 
 #### 个人部分
 
-![阿乐去买菜](/articles/blog3.jpg)
+![Kinfu](/articles/blog3.jpg)
 
 ### 技术选型
 
@@ -55,4 +55,4 @@ time: 2022.5.11
 
 有兴趣的小伙伴可以自行克隆，做精细一点，也可以给个 star
 
-- [github 地址](https://github.com/alqmc/alqmc.github.io)
+- [github 地址](https://github.com/kinfuyang/kinfuyang.github.io)

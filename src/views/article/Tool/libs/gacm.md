@@ -41,7 +41,7 @@ gacm delate user
 
 ### 获取 cli 模板
 
-拉取一下我的模板工具[template-node-cli](https://github.com/alqmc/template-node-cli)
+拉取一下我的模板工具[template-node-cli](https://github.com/kinfuyang/template-node-cli)
 
 - 内置了基于 typescript+rollup+gulp 的打包工具
 - 给出了一些简单模板
@@ -57,5 +57,5 @@ git config --xxx user.email xxxx
 
 ### 源码
 
-- [github](https://github.com/alqmc/gacm)
+- [github](https://github.com/kinfuyang/gacm)
 - [gitee](https://gitee.com/Y_onghu/gacm)

@@ -1,7 +1,7 @@
 {
-  "name": "alqmc-blog",
+  "name": "kinfuyang-blog",
   "version": "0.0.1",
-  "description": "alqmc blog",
+  "description": "kinfuyang blog",
   "main": "index.js",
   "scripts": {
     "dev": "pnpm generate && vitepress dev src",
@@ -15,7 +15,7 @@
   "keywords": [
     "blog"
   ],
-  "author": "alqmc",
+  "author": "kinfuyang",
   "license": "ISC",
   "devDependencies": {
     "@alqmc/eslint-config": "^0.0.3",

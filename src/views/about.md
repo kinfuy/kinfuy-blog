@@ -7,11 +7,11 @@ active: 'about'
 
 <img class='about-logo' src='/images/user.jpg'>
 
-## 阿乐去买菜
+## Kinfu
 
 <p class='about-description'>做想做的事，去想去的地方。</p>
 
-<p>Hi 👋，我是<strong>阿乐去买菜。</strong></p>
+<p>Hi 👋，我是<strong>Kinfu</strong></p>
 
 <p>
   喜欢折腾一些小工具，谷歌插件，Node Cli什么的，也喜欢新技术 🦄
@@ -31,10 +31,9 @@ active: 'about'
 
 <div style='margin-top:10px'></div>
 
-- 掘金: [@阿乐去买菜](https://juejin.cn/user/1257497032146535)
+- 掘金: [@kinfuyang](https://juejin.cn/user/1257497032146535)
 
-- Twitter: [@alqmc520](https://twitter.com/alqmc520)
-
-- Github: [@阿乐去买菜](https://github.com/alqmc)
+- Twitter: [@kinfuyang](https://twitter.com/Kinfuyang)
+- Github: [@kinfuyang](https://github.com/kinfuyang)
 
 </div>

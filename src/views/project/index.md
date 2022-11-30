@@ -3,11 +3,11 @@ title: '项目'
 active: 'project'
 ---
 
-### [MORE PROJECT](https://github.com/alqmc?tab=repositories)
+### [MORE PROJECT](https://github.com/kinfuyang?tab=repositories)
 
 <div class='project-item'>
 
-[Mangosteen（山竹）](https://github.com/alqmc/command-tips)
+[Mangosteen（山竹）](https://github.com/kinfuyang/command-tips)
 
 <a href="https://www.npmjs.org/package/mangosteen-cli">
 <img src="https://img.shields.io/npm/v/mangosteen-cli.svg">
@@ -24,7 +24,7 @@ active: 'project'
 
 <div class='project-item'>
 
-[vue-simple-json](https://github.com/alqmc/vue-simple-json)
+[vue-simple-json](https://github.com/kinfuyang/vue-simple-json)
 
 <a href="https://www.npmjs.org/package/vue-simple-json">
 <img src="https://img.shields.io/npm/v/vue-simple-json.svg">
@@ -41,7 +41,7 @@ active: 'project'
 
 <div class='project-item'>
 
-[gacm](https://github.com/alqmc/gacm)
+[gacm](https://github.com/kinfuyang/gacm)
 
 <a href="https://www.npmjs.org/package/gacm">
 <img src="https://img.shields.io/npm/v/gacm.svg">
@@ -58,7 +58,7 @@ Git Account Management Tools
 
 <div class='project-item'>
 
-[command-tips](https://github.com/alqmc/command-tips)
+[command-tips](https://github.com/kinfuyang/command-tips)
 
 <a href="https://www.npmjs.org/package/command-tips ">
 <img src="https://img.shields.io/npm/v/command-tips.svg">
@@ -74,7 +74,7 @@ Git Account Management Tools
 
 <div class='project-item'>
 
-[@alqmc/eslint-config](https://github.com/alqmc/@alqmc/eslint-config)
+[@alqmc/eslint-config](https://github.com/kinfuyang/@alqmc/eslint-config)
 
 <a href="https://www.npmjs.org/package/@alqmc/eslint-config ">
 <img src="https://img.shields.io/npm/v/@alqmc/eslint-config.svg">
@@ -91,7 +91,7 @@ eslint-config 配置
 
 <div class='project-item'>
 
-[@alqmc/build-ts](https://github.com/alqmc/@alqmc/build-ts)
+[@alqmc/build-ts](https://github.com/kinfuyang/@alqmc/build-ts)
 
 <a href="https://www.npmjs.org/package/@alqmc/build-ts ">
 <img src="https://img.shields.io/npm/v/@alqmc/build-ts.svg">
@@ -108,7 +108,7 @@ ts 类库打包工具
 
 <div class='project-item'>
 
-[@alqmc/build-vue](https://github.com/alqmc/@alqmc/@alqmc/build-vue)
+[@alqmc/build-vue](https://github.com/kinfuyang/@alqmc/@alqmc/build-vue)
 
 <a href="https://www.npmjs.org/package/@alqmc/build-vue ">
 <img src="https://img.shields.io/npm/v/@alqmc/build-vue.svg">
@@ -125,7 +125,7 @@ vue 类库打包工具
 
 <div class='project-item'>
 
-[@alqmc/build-utils](https://github.com/alqmc/@alqmc/@alqmc/build-utils)
+[@alqmc/build-utils](https://github.com/kinfuyang/@alqmc/@alqmc/build-utils)
 
 <a href="https://www.npmjs.org/package/@alqmc/build-utils ">
 <img src="https://img.shields.io/npm/v/@alqmc/build-utils.svg">
@@ -142,7 +142,7 @@ vue 类库打包工具
 
 <div class='project-item'>
 
-[simmind](https://github.com/alqmc/simmind)
+[simmind](https://github.com/kinfuyang/simmind)
 
 <a href="https://www.npmjs.org/package/simmind ">
 <img src="https://img.shields.io/npm/v/simmind.svg">

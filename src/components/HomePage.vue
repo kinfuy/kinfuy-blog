@@ -4,7 +4,7 @@
     <div class="home-content">
       <img class="home-cover" src="/images/cover3.jpg" />
       <div class="content-left">
-        <div class="left-title">阿乐去买菜</div>
+        <div class="left-title">Kinfu</div>
         <div class="left-descript">
           Do whatever you wanna do, go wherever you wanna go.
         </div>

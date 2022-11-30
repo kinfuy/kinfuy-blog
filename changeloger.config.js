@@ -9,5 +9,4 @@ module.exports = {
   },
   showContributors: false,
   showNotMatchComiit:false,
-  repository: 'https://github.com/alqmc/gacm',
 };
