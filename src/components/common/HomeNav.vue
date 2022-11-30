@@ -11,11 +11,7 @@
         :href="item.url"
         >{{ item.title }}</a
       >
-      <a
-        class="operate-btn"
-        href="https://github.com/kinfuyang"
-        target="_blank"
-      >
+      <a class="operate-btn" href="https://github.com/kinfuy" target="_blank">
         <svg-icon :size="26">
           <Github />
         </svg-icon>

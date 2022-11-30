@@ -31,9 +31,9 @@ active: 'about'
 
 <div style='margin-top:10px'></div>
 
-- 掘金: [@kinfuyang](https://juejin.cn/user/1257497032146535)
+- 掘金: [@kinfuy](https://juejin.cn/user/1257497032146535)
 
-- Twitter: [@kinfuyang](https://twitter.com/Kinfuyang)
-- Github: [@kinfuyang](https://github.com/kinfuyang)
+- Twitter: [@kinfuy](https://twitter.com/kinfuy)
+- Github: [@kinfuy](https://github.com/kinfuy)
 
 </div>

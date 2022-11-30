@@ -94,7 +94,7 @@ const prompts = require('prompts');
 
 #### 主要逻辑代码，其他关联函数可访问仓库查看
 
-[Mangosteen（山竹)](https://github.com/kinfuyang/mangosteen)
+[Mangosteen（山竹)](https://github.com/kinfuy/mangosteen)
 
 ```js
 import { join, resolve } from 'path';

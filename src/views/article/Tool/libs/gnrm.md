@@ -92,5 +92,5 @@ gacm delete xxx
 
 ### link
 
-[github](https://github.com/kinfuyang/gacm)
+[github](https://github.com/kinfuy/gacm)
 
